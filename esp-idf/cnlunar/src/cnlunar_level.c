@@ -270,7 +270,7 @@ void cleanup_things(ctx_t *c)
             }
             if (!sl_contains(bt, "修造") || !sl_contains(bt, "竖柱上梁")) {
                 static const char *const RM7[14] = {"修宫室", "缮城郭", "整手足甲", "筑提", "修仓库", "鼓铸",
-                                                    "苫盖", "修置产室", "开渠穿井", "安碓磑", "补垣塞穴",
+                                                    "苫盖", "修置产室", "开渠穿井", "安碓硙", "补垣塞穴",
                                                     "修饰垣墙", "平治道涂", "破屋坏垣"};
                 sl_removen(bt, RM7, 14);
             }
