@@ -13,7 +13,7 @@ if len(sys.argv) > 3:
     h = int(sys.argv[3])
 god_type = 'cnlunar' if len(sys.argv) > 4 and sys.argv[4] == '1' else '8char'
 year8char = 'beginningOfSpring' if len(sys.argv) > 5 and sys.argv[5] == '1' else 'year'
-yeargod = 'duty' if len(sys.argv) > 6 and sys.argv[6] == '1' else 'notDuty'
+yeargod = 'notDuty' if len(sys.argv) > 6 and sys.argv[6] == '0' else 'duty'
 
 GOD_START = [8, 10, 0, 2, 4, 6, 8, 10, 0, 2, 4, 6]
 
